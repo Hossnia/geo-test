@@ -8,7 +8,7 @@ pipeline{
         }
         stage('clean artifact'){
             steps{
-                sh 'ech hi'
+                sh 'echo hi'
             }
         }
     }
